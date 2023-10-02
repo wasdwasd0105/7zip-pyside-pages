@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover; /* This ensures the background covers the entire viewport */
+    color: #fff; /* Setting default text color to white for better contrast against dark background */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+.github-btn {
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: .3em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.github-btn:hover {
+    background-color: #e6ebf1;
+    background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
+    border-color: rgba(27,31,35,0.35);
+    box-shadow: 0px 1px 0px rgba(27,31,35,0.1);
+}
+
+.github-btn:active {
+    background-color: #e9ecef;
+    background-image: none;
+    border-color: rgba(27,31,35,0.35);
+    box-shadow: inset 0px 0.15em 0.3em rgba(27,31,35,0.15);
+}
+
+
+#description img {
+    max-width: 200px;  /* Adjust as needed */
+    height: auto;
+}
+
+.feature-img {
+    max-width: 350px;  /* You can adjust this as needed */
+    height: auto;
+    margin: 0 auto;  /* This will center the image within its column */
+}
+
+
+section {
+    border-bottom: 1px solid #e5e5e5;  /* light gray line */
+    padding-bottom: 1rem;  /* some space between the content and the line */
+    margin-bottom: 1rem;  /* some space between the line and the next section */
+}
